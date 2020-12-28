@@ -9,6 +9,7 @@ routes.get("/", (req, res) => {
   })
 })
 routes.get("/users", userController.index);
+routes.get("/users/:id", userController.show)
 routes.post("/users", userController.store);
 
 module.exports = routes;
