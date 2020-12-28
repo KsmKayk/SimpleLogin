@@ -107,7 +107,7 @@ module.exports = {
         }, jwt_secret, {
           expiresIn: "6h"
         })
-        return res.status(200).json({ message: "Authentication successful", token: token });
+        return res.status(200).json({ message: "Authentication successful", token: token, user_id: user.id });
       }
 
       return res.status(401).json({ error: "Wrong password or email"})

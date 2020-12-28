@@ -11,7 +11,8 @@ mongoose.connect(
   mongo,
   {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useFindAndModify: true
   }
 );
 app.use(cors());

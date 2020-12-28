@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.home {
+  background-color: #3498db;
+  font-family: "Arial", sans-serif;
+  padding: 50px;
+  height: 100vh;
+  width: 100%;
+}
+.home-container {
+  margin: 20px auto;
+  padding: 10px;
+  width: 350px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.home-title {
+  width: 70%;
+  color: #777;
+  font-size: 30px;
+  margin: 28px auto;
+  margin-bottom: 20px;
+  text-align: center;
+  /*padding-top: 40px;*/
+}
+.home-email {
+  width: 70%;
+  color: #777;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: -10px;
+}
+.home-description {
+  width: 70%;
+  color: #777;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.pass-link {
+  text-align: center;
+  margin-top: 5px;
+}
+.pass-link a:link,
+.pass-link a:visited {
+  font-size: 15px;
+  color: #777;
+}
